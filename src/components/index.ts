@@ -1,7 +1,5 @@
-import Article from "./article/article";
-import Brand from "./brand/brand";
-import Cta from "./cta/Cta";
-import Feature from "./feature/Feature";
-import Navbar from "./navbar/Navbar";
-
-export { Article, Brand, Cta, Feature, Navbar };
+export { default as Article } from "./article/article";
+export { default as Brand } from "./brand/brand";
+export { default as Cta } from "./cta/Cta";
+export { default as Feature } from "./feature/Feature";
+export { default as Navbar } from "./navbar/Navbar";
